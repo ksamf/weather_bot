@@ -29,6 +29,5 @@ func Get(url string, msg *tgbotapi.MessageConfig) []byte {
 	if err != nil {
 		log.Fatal(err)
 	}
-
 	return body
 }
