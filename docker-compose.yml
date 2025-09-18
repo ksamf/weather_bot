@@ -2,7 +2,7 @@ services:
   app:
     build:
       context: .
-    container_name: tgbot
+    container_name: weather_bot
     environment:
       BOT_TOKEN: ${BOT_TOKEN}
       WEATHER_API_KEY: ${WEATHER_API_KEY}
